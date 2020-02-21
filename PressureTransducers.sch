@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:bangbang_rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
