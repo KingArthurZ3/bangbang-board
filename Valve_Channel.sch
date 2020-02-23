@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:bangbang_rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -815,7 +814,7 @@ F 3 "" H 5375 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sternie:INA181AX U3
+L bangbang_rev1-rescue:INA181AX-sternie U3
 U 1 1 59699268
 P 4750 4575
 AR Path="/5966DBAF/59682A18/59699268" Ref="U3"  Part="1" 

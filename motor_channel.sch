@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:bangbang_rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L hbridge:PWD13F60 U?
+L bangbang_rev1-rescue:PWD13F60-hbridge U?
 U 1 1 5E507B4D
 P 3450 2900
+AR Path="/5E507B4D" Ref="U?"  Part="1" 
+AR Path="/5E49EA18/5E507A5C/5E507B4D" Ref="U?"  Part="1" 
 F 0 "U?" H 3450 3667 50  0000 C CNN
 F 1 "PWD13F60" H 3450 3576 50  0000 C CNN
 F 2 "CONV_PWD13F60" H 3450 2900 50  0001 L BNN
