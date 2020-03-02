@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title ""
 Date ""
 Rev ""
@@ -30,6 +30,8 @@ S 5000 1500 1500 1000
 U 5E49E893
 F0 "Pressure Transducers" 50
 F1 "PressureTransducers.sch" 50
+F2 "SCLK" I R 6500 1750 50 
+F3 "MOSI" I R 6500 1900 50 
 $EndSheet
 $Sheet
 S 1000 3000 1500 1000
@@ -43,10 +45,12 @@ U 5E49EA18
 F0 "Motors" 50
 F1 "Motors.sch" 50
 $EndSheet
-$Sheet
-S 5000 3000 1500 1000
-U 5E49EA75
-F0 "ADCs" 50
-F1 "ADCs.sch" 50
-$EndSheet
+Text HLabel 6500 2100 0    50   Input ~ 0
+MISO
+Text GLabel 6500 1750 2    50   Input ~ 0
+SPI1_SCK
+Text GLabel 6500 1900 2    50   Input ~ 0
+SPI1_MOSI
+Text GLabel 6500 2100 2    50   Input ~ 0
+SPI1_MISO
 $EndSCHEMATC
