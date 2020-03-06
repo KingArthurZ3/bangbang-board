@@ -53,4 +53,10 @@ Text GLabel 6500 1900 2    50   Input ~ 0
 SPI1_MOSI
 Text GLabel 6500 2100 2    50   Input ~ 0
 SPI1_MISO
+$Sheet
+S 5000 3000 1500 1000
+U 5E63996E
+F0 "ADC" 50
+F1 "ADC.sch" 50
+$EndSheet
 $EndSCHEMATC

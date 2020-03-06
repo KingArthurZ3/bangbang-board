@@ -1,128 +1,61 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Conn_01x37_Male
+# Connector_Conn_01x04_Female
 #
-DEF Connector_Conn_01x37_Male J 0 40 Y N 1 F N
-F0 "J" 0 1900 50 H V C CNN
-F1 "Connector_Conn_01x37_Male" 0 -1900 50 H V C CNN
+DEF Connector_Conn_01x04_Female J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x04_Female" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
-S 34 -1795 0 -1805 1 1 6 F
-S 34 -1695 0 -1705 1 1 6 F
-S 34 -1595 0 -1605 1 1 6 F
-S 34 -1495 0 -1505 1 1 6 F
-S 34 -1395 0 -1405 1 1 6 F
-S 34 -1295 0 -1305 1 1 6 F
-S 34 -1195 0 -1205 1 1 6 F
-S 34 -1095 0 -1105 1 1 6 F
-S 34 -995 0 -1005 1 1 6 F
-S 34 -895 0 -905 1 1 6 F
-S 34 -795 0 -805 1 1 6 F
-S 34 -695 0 -705 1 1 6 F
-S 34 -595 0 -605 1 1 6 F
-S 34 -495 0 -505 1 1 6 F
-S 34 -395 0 -405 1 1 6 F
-S 34 -295 0 -305 1 1 6 F
-S 34 -195 0 -205 1 1 6 F
-S 34 -95 0 -105 1 1 6 F
-S 34 5 0 -5 1 1 6 F
-S 34 105 0 95 1 1 6 F
-S 34 205 0 195 1 1 6 F
-S 34 305 0 295 1 1 6 F
-S 34 405 0 395 1 1 6 F
-S 34 505 0 495 1 1 6 F
-S 34 605 0 595 1 1 6 F
-S 34 705 0 695 1 1 6 F
-S 34 805 0 795 1 1 6 F
-S 34 905 0 895 1 1 6 F
-S 34 1005 0 995 1 1 6 F
-S 34 1105 0 1095 1 1 6 F
-S 34 1205 0 1195 1 1 6 F
-S 34 1305 0 1295 1 1 6 F
-S 34 1405 0 1395 1 1 6 F
-S 34 1505 0 1495 1 1 6 F
-S 34 1605 0 1595 1 1 6 F
-S 34 1705 0 1695 1 1 6 F
-S 34 1805 0 1795 1 1 6 F
-P 2 1 1 6 50 -1800 34 -1800 N
-P 2 1 1 6 50 -1700 34 -1700 N
-P 2 1 1 6 50 -1600 34 -1600 N
-P 2 1 1 6 50 -1500 34 -1500 N
-P 2 1 1 6 50 -1400 34 -1400 N
-P 2 1 1 6 50 -1300 34 -1300 N
-P 2 1 1 6 50 -1200 34 -1200 N
-P 2 1 1 6 50 -1100 34 -1100 N
-P 2 1 1 6 50 -1000 34 -1000 N
-P 2 1 1 6 50 -900 34 -900 N
-P 2 1 1 6 50 -800 34 -800 N
-P 2 1 1 6 50 -700 34 -700 N
-P 2 1 1 6 50 -600 34 -600 N
-P 2 1 1 6 50 -500 34 -500 N
-P 2 1 1 6 50 -400 34 -400 N
-P 2 1 1 6 50 -300 34 -300 N
-P 2 1 1 6 50 -200 34 -200 N
-P 2 1 1 6 50 -100 34 -100 N
-P 2 1 1 6 50 0 34 0 N
-P 2 1 1 6 50 100 34 100 N
-P 2 1 1 6 50 200 34 200 N
-P 2 1 1 6 50 300 34 300 N
-P 2 1 1 6 50 400 34 400 N
-P 2 1 1 6 50 500 34 500 N
-P 2 1 1 6 50 600 34 600 N
-P 2 1 1 6 50 700 34 700 N
-P 2 1 1 6 50 800 34 800 N
-P 2 1 1 6 50 900 34 900 N
-P 2 1 1 6 50 1000 34 1000 N
-P 2 1 1 6 50 1100 34 1100 N
-P 2 1 1 6 50 1200 34 1200 N
-P 2 1 1 6 50 1300 34 1300 N
-P 2 1 1 6 50 1400 34 1400 N
-P 2 1 1 6 50 1500 34 1500 N
-P 2 1 1 6 50 1600 34 1600 N
-P 2 1 1 6 50 1700 34 1700 N
-P 2 1 1 6 50 1800 34 1800 N
-X Pin_1 1 200 1800 150 L 50 50 1 1 P
-X Pin_10 10 200 900 150 L 50 50 1 1 P
-X Pin_11 11 200 800 150 L 50 50 1 1 P
-X Pin_12 12 200 700 150 L 50 50 1 1 P
-X Pin_13 13 200 600 150 L 50 50 1 1 P
-X Pin_14 14 200 500 150 L 50 50 1 1 P
-X Pin_15 15 200 400 150 L 50 50 1 1 P
-X Pin_16 16 200 300 150 L 50 50 1 1 P
-X Pin_17 17 200 200 150 L 50 50 1 1 P
-X Pin_18 18 200 100 150 L 50 50 1 1 P
-X Pin_19 19 200 0 150 L 50 50 1 1 P
-X Pin_2 2 200 1700 150 L 50 50 1 1 P
-X Pin_20 20 200 -100 150 L 50 50 1 1 P
-X Pin_21 21 200 -200 150 L 50 50 1 1 P
-X Pin_22 22 200 -300 150 L 50 50 1 1 P
-X Pin_23 23 200 -400 150 L 50 50 1 1 P
-X Pin_24 24 200 -500 150 L 50 50 1 1 P
-X Pin_25 25 200 -600 150 L 50 50 1 1 P
-X Pin_26 26 200 -700 150 L 50 50 1 1 P
-X Pin_27 27 200 -800 150 L 50 50 1 1 P
-X Pin_28 28 200 -900 150 L 50 50 1 1 P
-X Pin_29 29 200 -1000 150 L 50 50 1 1 P
-X Pin_3 3 200 1600 150 L 50 50 1 1 P
-X Pin_30 30 200 -1100 150 L 50 50 1 1 P
-X Pin_31 31 200 -1200 150 L 50 50 1 1 P
-X Pin_32 32 200 -1300 150 L 50 50 1 1 P
-X Pin_33 33 200 -1400 150 L 50 50 1 1 P
-X Pin_34 34 200 -1500 150 L 50 50 1 1 P
-X Pin_35 35 200 -1600 150 L 50 50 1 1 P
-X Pin_36 36 200 -1700 150 L 50 50 1 1 P
-X Pin_37 37 200 -1800 150 L 50 50 1 1 P
-X Pin_4 4 200 1500 150 L 50 50 1 1 P
-X Pin_5 5 200 1400 150 L 50 50 1 1 P
-X Pin_6 6 200 1300 150 L 50 50 1 1 P
-X Pin_7 7 200 1200 150 L 50 50 1 1 P
-X Pin_8 8 200 1100 150 L 50 50 1 1 P
-X Pin_9 9 200 1000 150 L 50 50 1 1 P
+A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+P 2 1 1 6 -50 -200 -20 -200 N
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x06_Female
+#
+DEF Connector_Conn_01x06_Female J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Conn_01x06_Female" 0 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -300 20 901 -901 1 1 6 N 0 -280 0 -320
+A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+A 0 200 20 901 -901 1 1 6 N 0 220 0 180
+P 2 1 1 6 -50 -300 -20 -300 N
+P 2 1 1 6 -50 -200 -20 -200 N
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+P 2 1 1 6 -50 200 -20 200 N
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -319,46 +252,11 @@ X VS 6 400 100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# bangbang_rev1-rescue_PWD13F60-hbridge
+# bangbang_rev1-rescue_INA181AX-sternie-engine_controller_series3-rescue
 #
-DEF bangbang_rev1-rescue_PWD13F60-hbridge U 0 40 Y Y 1 L N
-F0 "U" -500 630 50 H V L BNN
-F1 "bangbang_rev1-rescue_PWD13F60-hbridge" -500 -700 50 H V L BNN
-F2 "CONV_PWD13F60" 0 0 50 H I L BNN
-F3 "Manufacturer Recommendations" 0 0 50 H I L BNN
-F4 "0.9mm" 0 0 50 H I L BNN
-F5 "ST Mircoelectronics" 0 0 50 H I L BNN
-F6 "2" 0 0 50 H I L BNN
-DRAW
-P 2 0 0 10 -500 -600 -500 600 N
-P 2 0 0 10 -500 600 500 600 N
-P 2 0 0 10 500 -600 -500 -600 N
-P 2 0 0 10 500 600 500 -600 N
-X SENSE1 12 700 -200 200 L 40 40 0 0 I
-X BOOT2 19 700 300 200 L 40 40 0 0 P
-X GND2 20 -700 -400 200 R 40 40 0 0 W
-X LIN2 21 -700 -300 200 R 40 40 0 0 I
-X HIN2 22 -700 -200 200 R 40 40 0 0 I
-X VCC2 23 -700 -100 200 R 40 40 0 0 W
-X SENSE2 26 700 -500 200 L 40 40 0 0 I
-X BOOT1 5 700 500 200 L 40 40 0 0 P
-X LIN1 6 -700 200 200 R 40 40 0 0 I
-X GND1 7 -700 100 200 R 40 40 0 0 W
-X HIN1 8 -700 300 200 R 40 40 0 0 I
-X VCC1 9 -700 400 200 R 40 40 0 0 W
-X OUT2 EPAD1 700 -400 200 L 40 40 0 0 O
-X VS EPAD2 700 400 200 L 40 40 0 0 W
-X GND1 EPAD3 -700 100 200 R 40 40 0 0 W
-X OUT1 EPAD5 700 -300 200 L 40 40 0 0 O
-X GND2 EPAD6 -700 -400 200 R 40 40 0 0 W
-ENDDRAW
-ENDDEF
-#
-# engine_controller_series3-rescue_INA181AX-sternie
-#
-DEF engine_controller_series3-rescue_INA181AX-sternie U 0 40 Y Y 1 F N
+DEF bangbang_rev1-rescue_INA181AX-sternie-engine_controller_series3-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 250 49 H V C CNN
-F1 "engine_controller_series3-rescue_INA181AX-sternie" -50 -250 49 H V C CNN
+F1 "bangbang_rev1-rescue_INA181AX-sternie-engine_controller_series3-rescue" -50 -250 49 H V C CNN
 F2 "" -450 300 49 H I C CNN
 F3 "" -450 300 49 H I C CNN
 DRAW
@@ -372,11 +270,11 @@ X VS 6 400 100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# engine_controller_series3-rescue_MAX11128-sternie
+# bangbang_rev1-rescue_MAX11128-sternie-engine_controller_series3-rescue
 #
-DEF engine_controller_series3-rescue_MAX11128-sternie U 0 40 Y Y 1 F N
+DEF bangbang_rev1-rescue_MAX11128-sternie-engine_controller_series3-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 800 60 H V C CNN
-F1 "engine_controller_series3-rescue_MAX11128-sternie" 0 -1100 60 H V C CNN
+F1 "bangbang_rev1-rescue_MAX11128-sternie-engine_controller_series3-rescue" 0 -1100 60 H V C CNN
 F2 "" -550 350 60 H I C CNN
 F3 "" -550 350 60 H I C CNN
 DRAW
@@ -413,31 +311,11 @@ X AIN11 9 -550 -450 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# engine_controller_series3-rescue_MAX4461UESA+-sternie
+# bangbang_rev1-rescue_OSCILLATOR-sternie-engine_controller_series3-rescue
 #
-DEF engine_controller_series3-rescue_MAX4461UESA+-sternie U 0 40 Y Y 1 F N
-F0 "U" 0 -350 50 H V C CNN
-F1 "engine_controller_series3-rescue_MAX4461UESA+-sternie" 0 250 50 H V C CNN
-F2 "" -450 100 50 H I C CNN
-F3 "" -450 100 50 H I C CNN
-DRAW
-S 300 200 -250 -300 0 1 0 f
-X OUT 1 -450 100 200 R 50 50 1 1 O
-X GND 2 -450 0 200 R 50 50 1 1 W
-X IN+ 3 -450 -100 200 R 50 50 1 1 I
-X N.C. 4 -450 -200 200 R 50 50 1 1 N
-X N.C. 5 500 -200 200 L 50 50 1 1 N
-X IN- 6 500 -100 200 L 50 50 1 1 I
-X VDD 7 500 0 200 L 50 50 1 1 W
-X ~SHDN 8 500 100 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# engine_controller_series3-rescue_OSCILLATOR-sternie
-#
-DEF engine_controller_series3-rescue_OSCILLATOR-sternie U 0 40 Y Y 1 F N
+DEF bangbang_rev1-rescue_OSCILLATOR-sternie-engine_controller_series3-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 250 118 H V C CNN
-F1 "engine_controller_series3-rescue_OSCILLATOR-sternie" 50 -250 118 H V C CNN
+F1 "bangbang_rev1-rescue_OSCILLATOR-sternie-engine_controller_series3-rescue" 50 -250 118 H V C CNN
 F2 "" 0 0 118 H I C CNN
 F3 "" 0 0 118 H I C CNN
 DRAW
@@ -449,11 +327,46 @@ X VCC 4 -400 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# engine_controller_series3-rescue_Push_Button-sternie
+# bangbang_rev1-rescue_PWD13F60-hbridge
 #
-DEF engine_controller_series3-rescue_Push_Button-sternie B 0 40 Y Y 1 F N
+DEF bangbang_rev1-rescue_PWD13F60-hbridge U 0 40 Y Y 1 L N
+F0 "U" -500 630 50 H V L BNN
+F1 "bangbang_rev1-rescue_PWD13F60-hbridge" -500 -700 50 H V L BNN
+F2 "CONV_PWD13F60" 0 0 50 H I L BNN
+F3 "Manufacturer Recommendations" 0 0 50 H I L BNN
+F4 "0.9mm" 0 0 50 H I L BNN
+F5 "ST Mircoelectronics" 0 0 50 H I L BNN
+F6 "2" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -500 -600 -500 600 N
+P 2 0 0 10 -500 600 500 600 N
+P 2 0 0 10 500 -600 -500 -600 N
+P 2 0 0 10 500 600 500 -600 N
+X SENSE1 12 700 -200 200 L 40 40 0 0 I
+X BOOT2 19 700 300 200 L 40 40 0 0 P
+X GND2 20 -700 -400 200 R 40 40 0 0 W
+X LIN2 21 -700 -300 200 R 40 40 0 0 I
+X HIN2 22 -700 -200 200 R 40 40 0 0 I
+X VCC2 23 -700 -100 200 R 40 40 0 0 W
+X SENSE2 26 700 -500 200 L 40 40 0 0 I
+X BOOT1 5 700 500 200 L 40 40 0 0 P
+X LIN1 6 -700 200 200 R 40 40 0 0 I
+X GND1 7 -700 100 200 R 40 40 0 0 W
+X HIN1 8 -700 300 200 R 40 40 0 0 I
+X VCC1 9 -700 400 200 R 40 40 0 0 W
+X OUT2 EPAD1 700 -400 200 L 40 40 0 0 O
+X VS EPAD2 700 400 200 L 40 40 0 0 W
+X GND1 EPAD3 -700 100 200 R 40 40 0 0 W
+X OUT1 EPAD5 700 -300 200 L 40 40 0 0 O
+X GND2 EPAD6 -700 -400 200 R 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
+# bangbang_rev1-rescue_Push_Button-sternie-engine_controller_series3-rescue
+#
+DEF bangbang_rev1-rescue_Push_Button-sternie-engine_controller_series3-rescue B 0 40 Y Y 1 F N
 F0 "B" 0 100 79 H V C CNN
-F1 "engine_controller_series3-rescue_Push_Button-sternie" 100 -100 79 H V C CNN
+F1 "bangbang_rev1-rescue_Push_Button-sternie-engine_controller_series3-rescue" 100 -100 79 H V C CNN
 F2 "" 0 0 79 H I C CNN
 F3 "" 0 0 79 H I C CNN
 DRAW
@@ -465,11 +378,11 @@ X ~ 2 -200 0 98 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# engine_controller_series3-rescue_STM32F446VET6-sternie
+# bangbang_rev1-rescue_STM32F446VET6-sternie-engine_controller_series3-rescue
 #
-DEF engine_controller_series3-rescue_STM32F446VET6-sternie U 0 40 Y Y 7 L N
+DEF bangbang_rev1-rescue_STM32F446VET6-sternie-engine_controller_series3-rescue U 0 40 Y Y 7 L N
 F0 "U" 0 600 49 H V C CNN
-F1 "engine_controller_series3-rescue_STM32F446VET6-sternie" -500 -1650 49 H V C CNN
+F1 "bangbang_rev1-rescue_STM32F446VET6-sternie-engine_controller_series3-rescue" -500 -1650 49 H V C CNN
 F2 "" -850 -950 49 H I C CNN
 F3 "" -850 -950 49 H I C CNN
 DRAW
@@ -583,11 +496,11 @@ X VSS 99 -650 -800 200 R 50 50 6 1 I
 ENDDRAW
 ENDDEF
 #
-# engine_controller_series3-rescue_TL1963A-33DCYR-sternie
+# bangbang_rev1-rescue_TL1963A-33DCYR-sternie-engine_controller_series3-rescue
 #
-DEF engine_controller_series3-rescue_TL1963A-33DCYR-sternie U 0 40 Y Y 1 F N
+DEF bangbang_rev1-rescue_TL1963A-33DCYR-sternie-engine_controller_series3-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 150 49 H V C CNN
-F1 "engine_controller_series3-rescue_TL1963A-33DCYR-sternie" -450 -300 49 H V C CNN
+F1 "bangbang_rev1-rescue_TL1963A-33DCYR-sternie-engine_controller_series3-rescue" -450 -300 49 H V C CNN
 F2 "" 0 0 49 H I C CNN
 F3 "" 0 0 49 H I C CNN
 DRAW
@@ -636,6 +549,7 @@ F0 "#PWR" 0 -150 50 H I C CNN
 F1 "power_+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
 DRAW
 P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
@@ -665,7 +579,6 @@ F0 "#PWR" 0 -150 50 H I C CNN
 F1 "power_+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
 DRAW
 P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N

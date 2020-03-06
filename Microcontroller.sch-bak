@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 12
+Sheet 7 11
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L engine_controller_series3-rescue:STM32F446VET6-sternie U?
+L bangbang_rev1-rescue:STM32F446VET6-sternie-engine_controller_series3-rescue U?
 U 1 1 5E534371
 P 1750 1300
 F 0 "U?" H 1358 1563 49  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 900 350 49  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L engine_controller_series3-rescue:STM32F446VET6-sternie U?
+L bangbang_rev1-rescue:STM32F446VET6-sternie-engine_controller_series3-rescue U?
 U 2 1 5E53758A
 P 4300 1350
 F 0 "U?" H 3933 1613 49  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "" H 3450 400 49  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L engine_controller_series3-rescue:STM32F446VET6-sternie U?
+L bangbang_rev1-rescue:STM32F446VET6-sternie-engine_controller_series3-rescue U?
 U 3 1 5E53B3C0
 P 1850 3800
 F 0 "U?" H 1383 4063 49  0000 C CNN
@@ -47,7 +47,7 @@ F 3 "" H 1000 2850 49  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L engine_controller_series3-rescue:STM32F446VET6-sternie U?
+L bangbang_rev1-rescue:STM32F446VET6-sternie-engine_controller_series3-rescue U?
 U 4 1 5E53EB96
 P 4200 3750
 F 0 "U?" H 3908 4013 49  0000 C CNN
@@ -58,7 +58,7 @@ F 3 "" H 3350 2800 49  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L engine_controller_series3-rescue:STM32F446VET6-sternie U?
+L bangbang_rev1-rescue:STM32F446VET6-sternie-engine_controller_series3-rescue U?
 U 5 1 5E54171C
 P 6300 1400
 F 0 "U?" H 6008 1663 49  0000 C CNN
@@ -188,7 +188,7 @@ F 3 "" H 6700 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L engine_controller_series3-rescue:STM32F446VET6-sternie U?
+L bangbang_rev1-rescue:STM32F446VET6-sternie-engine_controller_series3-rescue U?
 U 6 1 5E53BC0E
 P 9700 3050
 F 0 "U?" H 9675 3763 49  0000 C CNN
@@ -201,7 +201,7 @@ $EndComp
 Text GLabel 8900 2950 0    50   Input ~ 0
 NRST
 $Comp
-L engine_controller_series3-rescue:OSCILLATOR-sternie U?
+L bangbang_rev1-rescue:OSCILLATOR-sternie-engine_controller_series3-rescue U?
 U 1 1 5E54009F
 P 7550 3600
 F 0 "U?" H 7550 3966 118 0000 C CNN
@@ -630,7 +630,7 @@ F 3 "" H 9250 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L engine_controller_series3-rescue:Push_Button-sternie B1
+L bangbang_rev1-rescue:Push_Button-sternie-engine_controller_series3-rescue B1
 U 1 1 5E641210
 P 9700 5050
 F 0 "B1" H 9700 5341 79  0000 C CNN
