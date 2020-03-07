@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
+Sheet 10 11
 Title ""
 Date ""
 Rev ""
@@ -16,17 +16,189 @@ $EndDescr
 $Comp
 L bangbang_rev1-rescue:PWD13F60-hbridge U?
 U 1 1 5E507B4D
-P 3450 2900
+P 6150 3600
 AR Path="/5E507B4D" Ref="U?"  Part="1" 
 AR Path="/5E49EA18/5E507A5C/5E507B4D" Ref="U?"  Part="1" 
-F 0 "U?" H 3450 3667 50  0000 C CNN
-F 1 "PWD13F60" H 3450 3576 50  0000 C CNN
-F 2 "CONV_PWD13F60" H 3450 2900 50  0001 L BNN
-F 3 "Manufacturer Recommendations" H 3450 2900 50  0001 L BNN
-F 4 "0.9mm" H 3450 2900 50  0001 L BNN "Field4"
-F 5 "ST Mircoelectronics" H 3450 2900 50  0001 L BNN "Field5"
-F 6 "2" H 3450 2900 50  0001 L BNN "Field6"
-	1    3450 2900
+F 0 "U?" H 6150 4367 50  0000 C CNN
+F 1 "PWD13F60" H 6150 4276 50  0000 C CNN
+F 2 "CONV_PWD13F60" H 6150 3600 50  0001 L BNN
+F 3 "Manufacturer Recommendations" H 6150 3600 50  0001 L BNN
+F 4 "0.9mm" H 6150 3600 50  0001 L BNN "Field4"
+F 5 "ST Mircoelectronics" H 6150 3600 50  0001 L BNN "Field5"
+F 6 "2" H 6150 3600 50  0001 L BNN "Field6"
+	1    6150 3600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 5E6371F6
+P 7000 2875
+F 0 "R?" V 6793 2875 50  0000 C CNN
+F 1 "5m" V 6884 2875 50  0000 C CNN
+F 2 "" V 6930 2875 50  0001 C CNN
+F 3 "~" H 7000 2875 50  0001 C CNN
+	1    7000 2875
+	1    0    0    -1  
+$EndComp
+Text HLabel 6850 3900 2    50   Input ~ 0
+out1
+Text HLabel 6850 4000 2    50   Input ~ 0
+out2
+Text HLabel 7500 2550 0    50   Input ~ 0
+i_mtr
+$Comp
+L bangbang_rev1-rescue:INA181AX-sternie U?
+U 1 1 5E634929
+P 7950 2650
+F 0 "U?" H 7925 3013 49  0000 C CNN
+F 1 "INA181AX-sternie" H 7925 2923 49  0000 C CNN
+F 2 "" H 7500 2950 49  0001 C CNN
+F 3 "" H 7500 2950 49  0001 C CNN
+	1    7950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5E65FD55
+P 7000 2450
+F 0 "#PWR?" H 7000 2300 50  0001 C CNN
+F 1 "+12V" H 7015 2623 50  0000 C CNN
+F 2 "" H 7000 2450 50  0001 C CNN
+F 3 "" H 7000 2450 50  0001 C CNN
+	1    7000 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2550 8525 2550
+Wire Wire Line
+	8350 2650 8525 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5E660BF5
+P 8525 2650
+F 0 "#PWR?" H 8525 2400 50  0001 C CNN
+F 1 "GND" H 8530 2477 50  0000 C CNN
+F 2 "" H 8525 2650 50  0001 C CNN
+F 3 "" H 8525 2650 50  0001 C CNN
+	1    8525 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E66287A
+P 8525 2550
+F 0 "#PWR?" H 8525 2400 50  0001 C CNN
+F 1 "+5V" H 8540 2723 50  0000 C CNN
+F 2 "" H 8525 2550 50  0001 C CNN
+F 3 "" H 8525 2550 50  0001 C CNN
+	1    8525 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E663717
+P 7350 2650
+F 0 "#PWR?" H 7350 2400 50  0001 C CNN
+F 1 "GND" H 7355 2477 50  0000 C CNN
+F 2 "" H 7350 2650 50  0001 C CNN
+F 3 "" H 7350 2650 50  0001 C CNN
+	1    7350 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3500 5400 3500
+Wire Wire Line
+	5450 4100 5400 4100
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5E664E60
+P 5400 3500
+F 0 "#PWR?" H 5400 3300 50  0001 C CNN
+F 1 "GNDPWR" H 5404 3346 50  0000 C CNN
+F 2 "" H 5400 3450 50  0001 C CNN
+F 3 "" H 5400 3450 50  0001 C CNN
+	1    5400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5E6661B7
+P 5400 4100
+F 0 "#PWR?" H 5400 3900 50  0001 C CNN
+F 1 "GNDPWR" H 5404 3946 50  0000 C CNN
+F 2 "" H 5400 4050 50  0001 C CNN
+F 3 "" H 5400 4050 50  0001 C CNN
+	1    5400 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2650 7350 2650
+Wire Wire Line
+	7500 2750 7500 2900
+Wire Wire Line
+	7500 2900 7225 2900
+Wire Wire Line
+	8350 3025 7000 3025
+Wire Wire Line
+	8350 2750 8350 3025
+Wire Wire Line
+	7000 3025 7000 3200
+Connection ~ 7000 3025
+Wire Wire Line
+	7225 2900 7225 2725
+Wire Wire Line
+	7225 2725 7000 2725
+Wire Wire Line
+	6850 3200 7000 3200
+$Comp
+L power:+12V #PWR?
+U 1 1 5E685700
+P 5100 3000
+F 0 "#PWR?" H 5100 2850 50  0001 C CNN
+F 1 "+12V" H 5115 3173 50  0000 C CNN
+F 2 "" H 5100 3000 50  0001 C CNN
+F 3 "" H 5100 3000 50  0001 C CNN
+	1    5100 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2450 7000 2725
+Connection ~ 7000 2725
+Wire Wire Line
+	6850 3800 7175 3800
+Wire Wire Line
+	7175 3800 7175 4100
+Wire Wire Line
+	7175 4100 6850 4100
+Wire Wire Line
+	7175 4100 7175 4200
+Connection ~ 7175 4100
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5E68782E
+P 7175 4200
+F 0 "#PWR?" H 7175 4000 50  0001 C CNN
+F 1 "GNDPWR" H 7179 4046 50  0000 C CNN
+F 2 "" H 7175 4150 50  0001 C CNN
+F 3 "" H 7175 4150 50  0001 C CNN
+	1    7175 4200
+	1    0    0    -1  
+$EndComp
+Text HLabel 5450 3300 0    50   Input ~ 0
+in_h1
+Text HLabel 5450 3400 0    50   Input ~ 0
+in_l1
+Text HLabel 5450 3900 0    50   Input ~ 0
+in_h2
+Text HLabel 5450 4000 0    50   Input ~ 0
+in_l2
+Wire Wire Line
+	5100 3800 5100 3200
+Wire Wire Line
+	5100 3800 5450 3800
+Connection ~ 5100 3200
+Wire Wire Line
+	5100 3200 5100 3000
+Wire Wire Line
+	5100 3200 5450 3200
 $EndSCHEMATC
