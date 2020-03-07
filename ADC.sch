@@ -183,12 +183,6 @@ Wire Wire Line
 	6050 2500 6050 2675
 Wire Wire Line
 	6475 3300 6525 3300
-Text HLabel 5925 2800 2    50   Input ~ 0
-SCLK
-Text HLabel 5925 3000 2    50   Input ~ 0
-MOSI
-Text HLabel 5925 3100 2    50   Output ~ 0
-MISO
 Text GLabel 5925 2900 2    49   Input ~ 0
 ADC1_CS
 Connection ~ 5925 3600
@@ -208,4 +202,10 @@ Text GLabel 4775 3000 0    50   Input ~ 0
 i_mtr0
 Text GLabel 4775 3100 0    50   Input ~ 0
 i_mtr1
+Text GLabel 5925 3000 2    50   Input ~ 0
+SPI1_MOSI
+Text GLabel 5925 3100 2    50   Input ~ 0
+SPI1_MISO
+Text GLabel 5925 2800 2    50   Input ~ 0
+SPI1_SCK
 $EndSCHEMATC

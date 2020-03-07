@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 12
+Sheet 10 12
 Title ""
 Date ""
 Rev ""
@@ -148,4 +148,6 @@ Text Label 5875 2750 0    50   ~ 0
 mtr_encoder
 Text Label 5875 2150 0    50   ~ 0
 mtr_encoder
+Text GLabel 6375 1950 0    50   Input ~ 0
+mtr0_b
 $EndSCHEMATC
