@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 12
+Sheet 7 12
 Title ""
 Date ""
 Rev ""
@@ -720,4 +720,47 @@ Text GLabel 6500 2300 2    50   Input ~ 0
 mtr0_pwm
 Wire Wire Line
 	4300 1950 4500 1950
+Text GLabel 1850 4600 2    50   Input ~ 0
+led0
+Text GLabel 1850 4700 2    50   Input ~ 0
+led1
+Text GLabel 1450 6200 2    50   Input ~ 0
+SPI1_SCK
+Text GLabel 1450 6600 2    50   Input ~ 0
+SPI1_MISO
+Text GLabel 1450 6975 2    50   Input ~ 0
+SPI1_MOSI
+$Comp
+L ec_2b_rescue:TEST TP?
+U 1 1 5E750D41
+P 1450 6600
+F 0 "TP?" V 1528 6738 50  0000 L CNN
+F 1 "TEST" H 1528 6647 50  0001 L CNN
+F 2 "" H 1450 6600 50  0001 C CNN
+F 3 "" H 1450 6600 50  0001 C CNN
+	1    1450 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ec_2b_rescue:TEST TP?
+U 1 1 5E750D4D
+P 1450 6975
+F 0 "TP?" V 1528 7113 50  0000 L CNN
+F 1 "TEST" H 1528 7022 50  0001 L CNN
+F 2 "" H 1450 6975 50  0001 C CNN
+F 3 "" H 1450 6975 50  0001 C CNN
+	1    1450 6975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ec_2b_rescue:TEST TP?
+U 1 1 5E750D47
+P 1450 6200
+F 0 "TP?" V 1528 6338 50  0000 L CNN
+F 1 "TEST" H 1528 6247 50  0001 L CNN
+F 2 "" H 1450 6200 50  0001 C CNN
+F 3 "" H 1450 6200 50  0001 C CNN
+	1    1450 6200
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
