@@ -706,16 +706,18 @@ Text GLabel 4450 3850 2    50   Input ~ 0
 mtr1_in1
 Text GLabel 4450 3950 2    50   Input ~ 0
 mtr1_in2
-Text GLabel 2425 2725 2    50   Input ~ 0
+Text GLabel 4500 1850 2    50   Input ~ 0
 enc0_a
-Text GLabel 2425 2850 2    50   Input ~ 0
+Text GLabel 4500 1950 2    50   Input ~ 0
 enc0_b
-Text GLabel 2425 2950 2    50   Input ~ 0
+Text GLabel 4450 4050 2    50   Input ~ 0
 enc1_a
-Text GLabel 2425 3050 2    50   Input ~ 0
+Text GLabel 4450 4150 2    50   Input ~ 0
 enc1_b
 Text GLabel 2050 4400 2    50   Input ~ 0
 mtr1_pwm
 Text GLabel 6500 2300 2    50   Input ~ 0
 mtr0_pwm
+Wire Wire Line
+	4300 1950 4500 1950
 $EndSCHEMATC

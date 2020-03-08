@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name bangbang_rev1-rescue)(type Legacy)(uri ${KIPRJMOD}/bangbang_rev1-rescue.lib)(options "")(descr ""))
+  (lib (name ec_2b_rescue)(type Legacy)(uri "${KIPRJMOD}/libs/Engine Controller_2b-rescue.lib")(options "")(descr ""))
 )

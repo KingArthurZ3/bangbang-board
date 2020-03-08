@@ -426,6 +426,8 @@ $Comp
 L power:+3.3V #PWR?
 U 1 1 5E666730
 P 3650 2550
+AR Path="/5E49EA18/5E507A5C/5E666730" Ref="#PWR?"  Part="1" 
+AR Path="/5E49EA18/5E6EF1BC/5E666730" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3650 2400 50  0001 C CNN
 F 1 "+3.3V" H 3665 2723 50  0000 C CNN
 F 2 "" H 3650 2550 50  0001 C CNN
@@ -441,9 +443,12 @@ Wire Wire Line
 Wire Wire Line
 	2925 2950 3000 2950
 $Comp
-L Engine_Controller-cache:GND #PWR?
+L bangbang_rev1-rescue:GND-Engine_Controller-cache #PWR?
 U 1 1 5E669D2E
 P 2925 3000
+AR Path="/5E49EA18/5E507A5C/5E669D2E" Ref="#PWR?"  Part="1" 
+AR Path="/5E49EA18/5E6EF1BC/5E669D2E" Ref="#PWR?"  Part="1" 
+AR Path="/5E669D2E" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2925 2750 50  0001 C CNN
 F 1 "GND" H 2930 2827 50  0000 C CNN
 F 2 "" H 2925 3000 50  0001 C CNN
@@ -452,9 +457,11 @@ F 3 "" H 2925 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine_Controller-cache:TEST TP?
+L bangbang_rev1-rescue:TEST-Engine_Controller-cache TP?
 U 1 1 5E66AC4A
 P 4750 2650
+AR Path="/5E49EA18/5E507A5C/5E66AC4A" Ref="TP?"  Part="1" 
+AR Path="/5E49EA18/5E6EF1BC/5E66AC4A" Ref="TP?"  Part="1" 
 F 0 "TP?" H 4828 2788 50  0000 L CNN
 F 1 "TEST" H 4828 2697 50  0000 L CNN
 F 2 "" H 4750 2650 50  0001 C CNN
@@ -463,9 +470,11 @@ F 3 "" H 4750 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine_Controller-cache:TEST TP?
+L bangbang_rev1-rescue:TEST-Engine_Controller-cache TP?
 U 1 1 5E66B0FC
 P 5125 2650
+AR Path="/5E49EA18/5E507A5C/5E66B0FC" Ref="TP?"  Part="1" 
+AR Path="/5E49EA18/5E6EF1BC/5E66B0FC" Ref="TP?"  Part="1" 
 F 0 "TP?" H 5203 2788 50  0000 L CNN
 F 1 "TEST" H 5203 2697 50  0000 L CNN
 F 2 "" H 5125 2650 50  0001 C CNN
@@ -474,9 +483,11 @@ F 3 "" H 5125 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine_Controller-cache:TEST TP?
+L bangbang_rev1-rescue:TEST-Engine_Controller-cache TP?
 U 1 1 5E66BCEE
 P 5450 2650
+AR Path="/5E49EA18/5E507A5C/5E66BCEE" Ref="TP?"  Part="1" 
+AR Path="/5E49EA18/5E6EF1BC/5E66BCEE" Ref="TP?"  Part="1" 
 F 0 "TP?" H 5528 2788 50  0000 L CNN
 F 1 "TEST" H 5528 2697 50  0000 L CNN
 F 2 "" H 5450 2650 50  0001 C CNN
@@ -485,9 +496,11 @@ F 3 "" H 5450 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine_Controller-cache:TEST TP?
+L bangbang_rev1-rescue:TEST-Engine_Controller-cache TP?
 U 1 1 5E66CBC1
 P 5750 2650
+AR Path="/5E49EA18/5E507A5C/5E66CBC1" Ref="TP?"  Part="1" 
+AR Path="/5E49EA18/5E6EF1BC/5E66CBC1" Ref="TP?"  Part="1" 
 F 0 "TP?" H 5828 2788 50  0000 L CNN
 F 1 "TEST" H 5828 2697 50  0000 L CNN
 F 2 "" H 5750 2650 50  0001 C CNN
@@ -496,9 +509,11 @@ F 3 "" H 5750 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine_Controller-cache:TEST TP?
+L bangbang_rev1-rescue:TEST-Engine_Controller-cache TP?
 U 1 1 5E66CBC7
 P 6075 2650
+AR Path="/5E49EA18/5E507A5C/5E66CBC7" Ref="TP?"  Part="1" 
+AR Path="/5E49EA18/5E6EF1BC/5E66CBC7" Ref="TP?"  Part="1" 
 F 0 "TP?" H 6153 2788 50  0000 L CNN
 F 1 "TEST" H 6153 2697 50  0000 L CNN
 F 2 "" H 6075 2650 50  0001 C CNN
@@ -520,6 +535,8 @@ $Comp
 L Device:D D?
 U 1 1 5E66FBCB
 P 4750 1650
+AR Path="/5E49EA18/5E507A5C/5E66FBCB" Ref="D?"  Part="1" 
+AR Path="/5E49EA18/5E6EF1BC/5E66FBCB" Ref="D?"  Part="1" 
 F 0 "D?" V 4704 1729 50  0000 L CNN
 F 1 "LED" V 4795 1729 50  0000 L CNN
 F 2 "" H 4750 1650 50  0001 C CNN
@@ -531,6 +548,8 @@ $Comp
 L Device:D D?
 U 1 1 5E6708D8
 P 5250 1650
+AR Path="/5E49EA18/5E507A5C/5E6708D8" Ref="D?"  Part="1" 
+AR Path="/5E49EA18/5E6EF1BC/5E6708D8" Ref="D?"  Part="1" 
 F 0 "D?" V 5204 1729 50  0000 L CNN
 F 1 "LED" V 5295 1729 50  0000 L CNN
 F 2 "" H 5250 1650 50  0001 C CNN
@@ -546,6 +565,8 @@ $Comp
 L Device:R R?
 U 1 1 5E67277D
 P 4750 1250
+AR Path="/5E49EA18/5E507A5C/5E67277D" Ref="R?"  Part="1" 
+AR Path="/5E49EA18/5E6EF1BC/5E67277D" Ref="R?"  Part="1" 
 F 0 "R?" H 4820 1296 50  0000 L CNN
 F 1 "1k" H 4820 1205 50  0000 L CNN
 F 2 "" V 4680 1250 50  0001 C CNN
@@ -557,6 +578,8 @@ $Comp
 L Device:R R?
 U 1 1 5E673457
 P 5250 1250
+AR Path="/5E49EA18/5E507A5C/5E673457" Ref="R?"  Part="1" 
+AR Path="/5E49EA18/5E6EF1BC/5E673457" Ref="R?"  Part="1" 
 F 0 "R?" H 5320 1296 50  0000 L CNN
 F 1 "1k" H 5320 1205 50  0000 L CNN
 F 2 "" V 5180 1250 50  0001 C CNN
@@ -574,9 +597,12 @@ Connection ~ 5250 1100
 Wire Wire Line
 	5250 1100 5500 1100
 $Comp
-L Engine_Controller-cache:GND #PWR?
+L bangbang_rev1-rescue:GND-Engine_Controller-cache #PWR?
 U 1 1 5E676C32
 P 5500 1100
+AR Path="/5E49EA18/5E507A5C/5E676C32" Ref="#PWR?"  Part="1" 
+AR Path="/5E49EA18/5E6EF1BC/5E676C32" Ref="#PWR?"  Part="1" 
+AR Path="/5E676C32" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5500 850 50  0001 C CNN
 F 1 "GND" V 5505 972 50  0000 R CNN
 F 2 "" H 5500 1100 50  0001 C CNN

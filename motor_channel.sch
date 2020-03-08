@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 12
+Sheet 11 12
 Title ""
 Date ""
 Rev ""
@@ -377,16 +377,16 @@ pwm
 Text GLabel 2800 2750 0    50   Input ~ 0
 in1
 Wire Wire Line
-	3500 2650 3650 2650
+	3900 2650 4050 2650
 Wire Wire Line
-	3650 2650 3650 2550
+	4050 2650 4050 2550
 Wire Wire Line
-	3500 2850 3650 2850
+	3900 2850 4050 2850
 Wire Wire Line
-	3500 2950 3650 2950
-Text GLabel 3650 2850 2    50   Input ~ 0
+	3900 2950 4050 2950
+Text GLabel 4050 2850 2    50   Input ~ 0
 in2
-Text GLabel 3650 2950 2    50   Input ~ 0
+Text GLabel 4050 2950 2    50   Input ~ 0
 pwm
 Wire Wire Line
 	2750 2850 3000 2850
@@ -400,15 +400,9 @@ Connection ~ 2750 3825
 Wire Wire Line
 	2750 3825 2750 4525
 Wire Wire Line
-	4125 2750 4125 3250
-Wire Wire Line
-	4125 3250 2800 3250
-Wire Wire Line
 	2800 3250 2800 3925
 Wire Wire Line
 	2800 4425 2925 4425
-Wire Wire Line
-	3500 2750 4125 2750
 Wire Wire Line
 	2925 3925 2800 3925
 Connection ~ 2800 3925
@@ -425,14 +419,14 @@ APWM
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5E666730
-P 3650 2550
+P 4050 2550
 AR Path="/5E49EA18/5E507A5C/5E666730" Ref="#PWR?"  Part="1" 
 AR Path="/5E49EA18/5E6EF1BC/5E666730" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3650 2400 50  0001 C CNN
-F 1 "+3.3V" H 3665 2723 50  0000 C CNN
-F 2 "" H 3650 2550 50  0001 C CNN
-F 3 "" H 3650 2550 50  0001 C CNN
-	1    3650 2550
+F 0 "#PWR?" H 4050 2400 50  0001 C CNN
+F 1 "+3.3V" H 4065 2723 50  0000 C CNN
+F 2 "" H 4050 2550 50  0001 C CNN
+F 3 "" H 4050 2550 50  0001 C CNN
+	1    4050 2550
 	1    0    0    -1  
 $EndComp
 Connection ~ 2750 2850
@@ -443,11 +437,12 @@ Wire Wire Line
 Wire Wire Line
 	2925 2950 3000 2950
 $Comp
-L Engine_Controller-cache:GND #PWR?
+L bangbang_rev1-rescue:GND-Engine_Controller-cache #PWR?
 U 1 1 5E669D2E
 P 2925 3000
 AR Path="/5E49EA18/5E507A5C/5E669D2E" Ref="#PWR?"  Part="1" 
 AR Path="/5E49EA18/5E6EF1BC/5E669D2E" Ref="#PWR?"  Part="1" 
+AR Path="/5E669D2E" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2925 2750 50  0001 C CNN
 F 1 "GND" H 2930 2827 50  0000 C CNN
 F 2 "" H 2925 3000 50  0001 C CNN
@@ -456,7 +451,7 @@ F 3 "" H 2925 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine_Controller-cache:TEST TP?
+L bangbang_rev1-rescue:TEST-Engine_Controller-cache TP?
 U 1 1 5E66AC4A
 P 4750 2650
 AR Path="/5E49EA18/5E507A5C/5E66AC4A" Ref="TP?"  Part="1" 
@@ -469,7 +464,7 @@ F 3 "" H 4750 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine_Controller-cache:TEST TP?
+L bangbang_rev1-rescue:TEST-Engine_Controller-cache TP?
 U 1 1 5E66B0FC
 P 5125 2650
 AR Path="/5E49EA18/5E507A5C/5E66B0FC" Ref="TP?"  Part="1" 
@@ -482,7 +477,7 @@ F 3 "" H 5125 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine_Controller-cache:TEST TP?
+L bangbang_rev1-rescue:TEST-Engine_Controller-cache TP?
 U 1 1 5E66BCEE
 P 5450 2650
 AR Path="/5E49EA18/5E507A5C/5E66BCEE" Ref="TP?"  Part="1" 
@@ -495,7 +490,7 @@ F 3 "" H 5450 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine_Controller-cache:TEST TP?
+L bangbang_rev1-rescue:TEST-Engine_Controller-cache TP?
 U 1 1 5E66CBC1
 P 5750 2650
 AR Path="/5E49EA18/5E507A5C/5E66CBC1" Ref="TP?"  Part="1" 
@@ -508,7 +503,7 @@ F 3 "" H 5750 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine_Controller-cache:TEST TP?
+L bangbang_rev1-rescue:TEST-Engine_Controller-cache TP?
 U 1 1 5E66CBC7
 P 6075 2650
 AR Path="/5E49EA18/5E507A5C/5E66CBC7" Ref="TP?"  Part="1" 
@@ -596,11 +591,12 @@ Connection ~ 5250 1100
 Wire Wire Line
 	5250 1100 5500 1100
 $Comp
-L Engine_Controller-cache:GND #PWR?
+L bangbang_rev1-rescue:GND-Engine_Controller-cache #PWR?
 U 1 1 5E676C32
 P 5500 1100
 AR Path="/5E49EA18/5E507A5C/5E676C32" Ref="#PWR?"  Part="1" 
 AR Path="/5E49EA18/5E6EF1BC/5E676C32" Ref="#PWR?"  Part="1" 
+AR Path="/5E676C32" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5500 850 50  0001 C CNN
 F 1 "GND" V 5505 972 50  0000 R CNN
 F 2 "" H 5500 1100 50  0001 C CNN
@@ -608,4 +604,21 @@ F 3 "" H 5500 1100 50  0001 C CNN
 	1    5500 1100
 	0    -1   -1   0   
 $EndComp
+$Comp
+L ec_2b_rescue:74AHC2G08 U?
+U 1 1 5E659488
+P 3000 2350
+F 0 "U?" H 3450 2337 60  0000 C CNN
+F 1 "74AHC2G08" H 3450 2231 60  0000 C CNN
+F 2 "" H 3000 2350 60  0001 C CNN
+F 3 "" H 3000 2350 60  0001 C CNN
+	1    3000 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2750 4300 2750
+Wire Wire Line
+	4300 2750 4300 3250
+Wire Wire Line
+	2800 3250 4300 3250
 $EndSCHEMATC
