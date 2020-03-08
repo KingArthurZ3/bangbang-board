@@ -586,6 +586,4 @@ F 3 "" H 1925 5475 50  0001 C CNN
 $EndComp
 Wire Notes Line
 	3650 3150 7000 3150
-Wire Notes Line
-	7000 3150 7000 3100
 $EndSCHEMATC

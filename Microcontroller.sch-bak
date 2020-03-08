@@ -91,9 +91,9 @@ Wire Wire Line
 Wire Wire Line
 	2050 4400 1850 4400
 Text GLabel 4500 1650 2    50   Input ~ 0
-mtr0_h1
+mtr0_in1
 Text GLabel 4500 1750 2    50   Input ~ 0
-mtr0_l1
+mtr0_in2
 Wire Wire Line
 	4300 1650 4500 1650
 Wire Wire Line
@@ -704,16 +704,16 @@ F 3 "" H 8900 5550 50  0001 C CNN
 	1    8900 5550
 	1    0    0    -1  
 $EndComp
-Text GLabel 4500 1850 2    50   Input ~ 0
-mtr0_h1
-Text GLabel 4500 1950 2    50   Input ~ 0
-mtr0_l2
 Text GLabel 4450 3850 2    50   Input ~ 0
-mtr1_h1
+mtr1_in1
 Text GLabel 4450 3950 2    50   Input ~ 0
-mtr1_l1
-Text GLabel 4450 4050 2    50   Input ~ 0
-mtr1_h1
-Text GLabel 4450 4150 2    50   Input ~ 0
-mtr1_l2
+mtr1_in2
+Text GLabel 2425 2725 2    50   Input ~ 0
+enc0_a
+Text GLabel 2425 2850 2    50   Input ~ 0
+enc0_b
+Text GLabel 2425 2950 2    50   Input ~ 0
+enc1_a
+Text GLabel 2425 3050 2    50   Input ~ 0
+enc1_b
 $EndSCHEMATC

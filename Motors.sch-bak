@@ -18,55 +18,22 @@ S 3525 1350 1200 650
 U 5E507A5C
 F0 "mtr0" 50
 F1 "motor_channel.sch" 50
-F2 "in_h1" I L 3525 1500 50 
-F3 "in_h2" I R 4725 1500 50 
-F4 "in_l1" I L 3525 1625 50 
-F5 "in_l2" I R 4725 1625 50 
-F6 "i_mtr" I L 3525 1900 50 
-F7 "out1" I L 3525 1750 50 
-F8 "out2" I R 4725 1750 50 
+F2 "in1" I L 3525 1500 50 
+F3 "in2" I R 4725 1500 50 
+F4 "i_mtr" I L 3525 1900 50 
+F5 "out1" I L 3525 1750 50 
+F6 "out2" I R 4725 1750 50 
 $EndSheet
 Text Label 3525 1750 2    50   ~ 0
 mtr0_out1
 Text Label 4725 1750 0    50   ~ 0
 mtr0_out2
 Text GLabel 3525 1500 0    50   Input ~ 0
-mtr0_h1
-Text GLabel 3525 1625 0    50   Input ~ 0
-mtr0_l1
+mtr0_in1
 Text GLabel 4725 1500 2    50   Input ~ 0
-mtr0_h2
-Text GLabel 4725 1625 2    50   Input ~ 0
-mtr0_l2
+mtr0_in2
 Text GLabel 3525 1900 0    50   Input ~ 0
 i_mtr0
-$Sheet
-S 3525 2300 1200 650 
-U 5E6AD26A
-F0 "mtr1" 50
-F1 "motor_channel.sch" 50
-F2 "in_h1" I L 3525 2450 50 
-F3 "in_h2" I R 4725 2450 50 
-F4 "in_l1" I L 3525 2575 50 
-F5 "in_l2" I R 4725 2575 50 
-F6 "i_mtr" I L 3525 2850 50 
-F7 "out1" I L 3525 2700 50 
-F8 "out2" I R 4725 2700 50 
-$EndSheet
-Text Label 3525 2700 2    50   ~ 0
-mtr1_out1
-Text Label 4725 2700 0    50   ~ 0
-mtr1_out2
-Text GLabel 3525 2450 0    50   Input ~ 0
-mtr1_h1
-Text GLabel 3525 2575 0    50   Input ~ 0
-mtr1_l1
-Text GLabel 4725 2450 2    50   Input ~ 0
-mtr1_h2
-Text GLabel 4725 2575 2    50   Input ~ 0
-mtr1_l2
-Text GLabel 3525 2850 0    50   Input ~ 0
-i_mtr1
 $Comp
 L Connector:Conn_01x12_Female J?
 U 1 1 5E6AD3E3
@@ -83,15 +50,15 @@ mtr0_out1
 Text Label 6375 1750 2    50   ~ 0
 mtr0_out2
 Text GLabel 6375 1850 0    50   Input ~ 0
-mtr0_a
+enc0_a
 Text Label 6375 2250 2    50   ~ 0
 mtr1_out1
 Text Label 6375 2350 2    50   ~ 0
 mtr1_out2
 Text GLabel 6375 2450 0    50   Input ~ 0
-mtr1_a
+enc1_a
 Text GLabel 6375 2550 0    50   Input ~ 0
-mtr1_b
+enc1_b
 Wire Wire Line
 	5825 2050 6375 2050
 Wire Wire Line
@@ -149,5 +116,26 @@ mtr_encoder
 Text Label 5875 2150 0    50   ~ 0
 mtr_encoder
 Text GLabel 6375 1950 0    50   Input ~ 0
-mtr0_b
+enc0_b
+$Sheet
+S 3525 2250 1200 650 
+U 5E6EF1BC
+F0 "mtr1" 50
+F1 "motor_channel.sch" 50
+F2 "in1" I L 3525 2400 50 
+F3 "in2" I R 4725 2400 50 
+F4 "i_mtr" I L 3525 2800 50 
+F5 "out1" I L 3525 2650 50 
+F6 "out2" I R 4725 2650 50 
+$EndSheet
+Text Label 3525 2650 2    50   ~ 0
+mtr1_out1
+Text Label 4725 2650 0    50   ~ 0
+mtr1_out2
+Text GLabel 3525 2400 0    50   Input ~ 0
+mtr1_in1
+Text GLabel 4725 2400 2    50   Input ~ 0
+mtr1_in2
+Text GLabel 3525 2800 0    50   Input ~ 0
+i_mtr1
 $EndSCHEMATC
