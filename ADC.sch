@@ -212,4 +212,10 @@ Text GLabel 4775 3200 0    49   Input ~ 0
 i3v3
 Text GLabel 4775 3300 0    49   Input ~ 0
 i5v
+NoConn ~ 4775 3400
+NoConn ~ 4775 3500
+NoConn ~ 4775 3600
+NoConn ~ 4775 3700
+NoConn ~ 4775 3800
+NoConn ~ 4775 3900
 $EndSCHEMATC
