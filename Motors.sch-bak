@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 12
+Sheet 6 12
 Title ""
 Date ""
 Rev ""
@@ -35,64 +35,53 @@ Text GLabel 4750 1500 2    50   Input ~ 0
 mtr0_in2
 Text GLabel 3550 1900 0    50   Input ~ 0
 i_mtr0
-$Comp
-L Connector:Conn_01x12_Female J4
-U 1 1 5E6AD3E3
-P 8725 2125
-F 0 "J4" H 8753 2101 50  0000 L CNN
-F 1 "Conn_01x12_Female" H 8753 2010 50  0000 L CNN
-F 2 "" H 8725 2125 50  0001 C CNN
-F 3 "~" H 8725 2125 50  0001 C CNN
-	1    8725 2125
-	1    0    0    -1  
-$EndComp
-Text Label 8525 1625 2    50   ~ 0
+Text Label 9525 1625 2    50   ~ 0
 mtr0_out1
-Text Label 8525 1725 2    50   ~ 0
+Text Label 9525 1725 2    50   ~ 0
 mtr0_out2
 Text GLabel 6575 1550 2    50   Input ~ 0
 enc0_a
-Text Label 8525 2225 2    50   ~ 0
+Text Label 9525 2325 2    50   ~ 0
 mtr1_out1
-Text Label 8525 2325 2    50   ~ 0
+Text Label 9525 2425 2    50   ~ 0
 mtr1_out2
 Text GLabel 6575 2150 2    50   Input ~ 0
 enc1_a
 Text GLabel 6575 1850 2    50   Input ~ 0
 enc1_b
 Wire Wire Line
-	7975 2025 8525 2025
+	8975 2025 9525 2025
 Wire Wire Line
-	7975 2125 8525 2125
+	8975 2125 9525 2125
 Wire Wire Line
-	7975 2625 8525 2625
+	8975 2725 9525 2725
 Wire Wire Line
-	7975 2725 8525 2725
+	8975 2825 9525 2825
 $Comp
 L power:GND #PWR055
 U 1 1 5E6B1444
-P 7975 2125
-F 0 "#PWR055" H 7975 1875 50  0001 C CNN
-F 1 "GND" H 7980 1952 50  0000 C CNN
-F 2 "" H 7975 2125 50  0001 C CNN
-F 3 "" H 7975 2125 50  0001 C CNN
-	1    7975 2125
+P 8975 2125
+F 0 "#PWR055" H 8975 1875 50  0001 C CNN
+F 1 "GND" H 8980 1952 50  0000 C CNN
+F 2 "" H 8975 2125 50  0001 C CNN
+F 3 "" H 8975 2125 50  0001 C CNN
+	1    8975 2125
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR056
 U 1 1 5E6B180E
-P 7975 2725
-F 0 "#PWR056" H 7975 2475 50  0001 C CNN
-F 1 "GND" H 7980 2552 50  0000 C CNN
-F 2 "" H 7975 2725 50  0001 C CNN
-F 3 "" H 7975 2725 50  0001 C CNN
-	1    7975 2725
+P 8975 2825
+F 0 "#PWR056" H 8975 2575 50  0001 C CNN
+F 1 "GND" H 8980 2652 50  0000 C CNN
+F 2 "" H 8975 2825 50  0001 C CNN
+F 3 "" H 8975 2825 50  0001 C CNN
+	1    8975 2825
 	1    0    0    -1  
 $EndComp
-Text Label 8025 2725 0    50   ~ 0
+Text Label 9025 2825 0    50   ~ 0
 mtr_encoder
-Text Label 8025 2125 0    50   ~ 0
+Text Label 9025 2125 0    50   ~ 0
 mtr_encoder
 Text GLabel 6575 1250 2    50   Input ~ 0
 enc0_b
@@ -118,24 +107,13 @@ Text GLabel 4750 2400 2    50   Input ~ 0
 mtr1_in2
 Text GLabel 3550 2800 0    50   Input ~ 0
 i_mtr1
-$Comp
-L Device:R R20
-U 1 1 5E6FBB13
-P 6425 1250
-F 0 "R20" V 6218 1250 50  0000 C CNN
-F 1 "R" V 6309 1250 50  0000 C CNN
-F 2 "" V 6355 1250 50  0001 C CNN
-F 3 "~" H 6425 1250 50  0001 C CNN
-	1    6425 1250
-	0    1    1    0   
-$EndComp
-Text Label 8525 1825 2    50   ~ 0
+Text Label 9525 1825 2    50   ~ 0
 enc0_a
-Text Label 8525 1925 2    50   ~ 0
+Text Label 9525 1925 2    50   ~ 0
 enc0_b
-Text Label 8525 2425 2    50   ~ 0
+Text Label 9525 2525 2    50   ~ 0
 enc1_a
-Text Label 8525 2525 2    50   ~ 0
+Text Label 9525 2625 2    50   ~ 0
 enc1_b
 Text Label 6275 1250 2    50   ~ 0
 enc0_a
@@ -145,8 +123,8 @@ $Comp
 L Device:R R21
 U 1 1 5E700368
 P 6425 1550
-F 0 "R21" V 6218 1550 50  0000 C CNN
-F 1 "R" V 6309 1550 50  0000 C CNN
+F 0 "R21" V 6325 1550 50  0000 C CNN
+F 1 "R" V 6425 1550 50  0000 C CNN
 F 2 "" V 6355 1550 50  0001 C CNN
 F 3 "~" H 6425 1550 50  0001 C CNN
 	1    6425 1550
@@ -156,22 +134,11 @@ $Comp
 L Device:R R22
 U 1 1 5E701D8F
 P 6425 1850
-F 0 "R22" V 6218 1850 50  0000 C CNN
-F 1 "R" V 6309 1850 50  0000 C CNN
+F 0 "R22" V 6325 1850 50  0000 C CNN
+F 1 "R" V 6425 1850 50  0000 C CNN
 F 2 "" V 6355 1850 50  0001 C CNN
 F 3 "~" H 6425 1850 50  0001 C CNN
 	1    6425 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R23
-U 1 1 5E7027C7
-P 6425 2150
-F 0 "R23" V 6218 2150 50  0000 C CNN
-F 1 "R" V 6309 2150 50  0000 C CNN
-F 2 "" V 6355 2150 50  0001 C CNN
-F 3 "~" H 6425 2150 50  0001 C CNN
-	1    6425 2150
 	0    1    1    0   
 $EndComp
 Text Label 6275 1850 2    50   ~ 0
@@ -182,9 +149,9 @@ Text GLabel 4750 1900 2    50   Input ~ 0
 mtr0_pwm
 Text GLabel 4750 2800 2    50   Input ~ 0
 mtr1_pwm
-Text Label 7975 2025 0    50   ~ 0
+Text Label 8975 2025 0    50   ~ 0
 p_enc0
-Text Label 7975 2625 0    50   ~ 0
+Text Label 8975 2725 0    50   ~ 0
 p_enc1
 $Comp
 L Device:Jumper JP6
@@ -324,4 +291,48 @@ Wire Wire Line
 Connection ~ 6100 3300
 Wire Wire Line
 	6100 3300 6100 4200
+$Comp
+L Connector:Conn_01x06_Female J8
+U 1 1 5E6B3280
+P 9725 1825
+F 0 "J8" H 9753 1801 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 9753 1710 50  0000 L CNN
+F 2 "" H 9725 1825 50  0001 C CNN
+F 3 "~" H 9725 1825 50  0001 C CNN
+	1    9725 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J9
+U 1 1 5E6B4D9E
+P 9725 2525
+F 0 "J9" H 9753 2501 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 9753 2410 50  0000 L CNN
+F 2 "" H 9725 2525 50  0001 C CNN
+F 3 "~" H 9725 2525 50  0001 C CNN
+	1    9725 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 5E6FBB13
+P 6425 1250
+F 0 "R20" V 6325 1250 50  0000 C CNN
+F 1 "R" V 6400 1250 50  0000 C TNN
+F 2 "" V 6355 1250 50  0001 C CNN
+F 3 "~" H 6425 1250 50  0001 C CNN
+	1    6425 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 5E750250
+P 6425 2150
+F 0 "R23" V 6325 2150 50  0000 C CNN
+F 1 "R" V 6425 2150 50  0000 C CNN
+F 2 "" V 6355 2150 50  0001 C CNN
+F 3 "~" H 6425 2150 50  0001 C CNN
+	1    6425 2150
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

@@ -14,12 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3350 1200 1500 1000
-U 5E49E833
-F0 "Valves" 50
-F1 "Valves.sch" 50
-$EndSheet
-$Sheet
 S 5350 1200 1500 1000
 U 5E49E893
 F0 "Pressure Transducers" 50
@@ -48,5 +42,11 @@ S 1350 1200 1500 1000
 U 5E49E7E9
 F0 "Power" 50
 F1 "Power.sch" 50
+$EndSheet
+$Sheet
+S 3350 1200 1500 1000
+U 5E49E833
+F0 "Valves" 50
+F1 "Valves.sch" 50
 $EndSheet
 $EndSCHEMATC

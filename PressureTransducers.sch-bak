@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 12
+Sheet 2 12
 Title "Engine Controller Series 3"
 Date ""
 Rev "B"
@@ -13,39 +13,26 @@ Comment2 "Rev B Adds connector PNs and Mating PNs"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 6500 3125 2    50   ~ 0
+Text Label 6375 3125 2    50   ~ 0
 p1p
 Wire Wire Line
-	6200 3125 6500 3125
+	6075 3125 6375 3125
 Wire Wire Line
-	6650 3025 6200 3025
+	6525 3025 6075 3025
 Wire Wire Line
-	6650 3325 6650 3025
-Wire Wire Line
-	6200 3325 6650 3325
-Text Label 6500 3425 2    50   ~ 0
+	6075 3525 6525 3525
+Text Label 6375 3625 2    50   ~ 0
 p1p
 Wire Wire Line
-	6200 3425 6500 3425
-Text Label 6500 3225 2    50   ~ 0
+	6075 3625 6375 3625
+Text Label 6375 3225 2    50   ~ 0
 p0s
-Text Label 6500 3525 2    50   ~ 0
+Text Label 6375 3725 2    50   ~ 0
 p1s
 Wire Wire Line
-	6200 3225 6500 3225
+	6075 3225 6375 3225
 Wire Wire Line
-	6200 3525 6500 3525
-$Comp
-L Connector:Conn_01x06_Female J2
-U 1 1 5E65AEC5
-P 6000 3325
-F 0 "J2" H 6028 3301 50  0000 L CNN
-F 1 "Conn_01x06_Female" H 6028 3210 50  0000 L CNN
-F 2 "" H 6000 3325 50  0001 C CNN
-F 3 "~" H 6000 3325 50  0001 C CNN
-	1    6000 3325
-	-1   0    0    1   
-$EndComp
+	6075 3725 6375 3725
 $Sheet
 S 7425 3025 500  600 
 U 5E67E090
@@ -69,17 +56,16 @@ e_p1
 Text GLabel 7925 3425 2    50   Input ~ 0
 e_p0
 Wire Wire Line
-	6650 3325 6650 3600
-Connection ~ 6650 3325
+	6525 3525 6525 3800
 $Comp
 L power:GND #PWR029
 U 1 1 5E653EA9
-P 6650 3600
-F 0 "#PWR029" H 6650 3350 50  0001 C CNN
-F 1 "GND" H 6655 3427 50  0000 C CNN
-F 2 "" H 6650 3600 50  0001 C CNN
-F 3 "" H 6650 3600 50  0001 C CNN
-	1    6650 3600
+P 6525 3800
+F 0 "#PWR029" H 6525 3550 50  0001 C CNN
+F 1 "GND" H 6530 3627 50  0000 C CNN
+F 2 "" H 6525 3800 50  0001 C CNN
+F 3 "" H 6525 3800 50  0001 C CNN
+	1    6525 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -174,4 +160,29 @@ Text Label 4900 3475 0    50   ~ 0
 p1p
 Text Label 4900 3775 0    50   ~ 0
 p1p
+$Comp
+L Connector:Conn_01x03_Female J7
+U 1 1 5E7440C9
+P 5875 3625
+F 0 "J7" H 5767 3300 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 5767 3391 50  0000 C CNN
+F 2 "" H 5875 3625 50  0001 C CNN
+F 3 "~" H 5875 3625 50  0001 C CNN
+	1    5875 3625
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J4
+U 1 1 5E745D5D
+P 5875 3125
+F 0 "J4" H 5767 2800 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 5767 2891 50  0000 C CNN
+F 2 "" H 5875 3125 50  0001 C CNN
+F 3 "~" H 5875 3125 50  0001 C CNN
+	1    5875 3125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6525 3025 6525 3525
+Connection ~ 6525 3525
 $EndSCHEMATC
