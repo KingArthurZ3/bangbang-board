@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 12
+Sheet 8 12
 Title ""
 Date ""
 Rev ""
@@ -1420,9 +1420,9 @@ EB 0E C0 39 39 39 0A D4 D8 C7 BC 92 86 D1 AD 43 EB 03 FA B2 37 F5 8E FF 0F FD 35
 EndData
 $EndBitmap
 Text HLabel 2800 2750 0    50   Input ~ 0
-in1
+ch1_cntl
 Text HLabel 4050 2850 2    50   Input ~ 0
-in2
+ch2_cntl
 Text Notes 1350 6075 0    50   ~ 0
 in1 and in2 are both ANDed with pwm to create two pwm signals pwm1 and pwm2\n\n
 $Comp

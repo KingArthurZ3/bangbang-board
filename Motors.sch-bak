@@ -18,8 +18,8 @@ S 3550 1350 1200 650
 U 5E507A5C
 F0 "mtr0" 50
 F1 "motor_channel.sch" 50
-F2 "in1" I L 3550 1500 50 
-F3 "in2" I R 4750 1500 50 
+F2 "ch1_cntl" I L 3550 1500 50 
+F3 "ch2_cntl" I R 4750 1500 50 
 F4 "i_mtr" I L 3550 1900 50 
 F5 "out1" I L 3550 1750 50 
 F6 "out2" I R 4750 1750 50 
@@ -90,8 +90,8 @@ S 3550 2250 1200 650
 U 5E6EF1BC
 F0 "mtr1" 50
 F1 "motor_channel.sch" 50
-F2 "in1" I L 3550 2400 50 
-F3 "in2" I R 4750 2400 50 
+F2 "ch1_cntl" I L 3550 2400 50 
+F3 "ch2_cntl" I R 4750 2400 50 
 F4 "i_mtr" I L 3550 2800 50 
 F5 "out1" I L 3550 2650 50 
 F6 "out2" I R 4750 2650 50 

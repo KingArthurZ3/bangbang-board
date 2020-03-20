@@ -713,7 +713,7 @@ Text GLabel 1750 2700 2    50   Input ~ 0
 SWCLK
 Text GLabel 4300 1650 2    50   Input ~ 0
 SW0
-Text GLabel 1850 5000 2    49   Input ~ 0
+Text GLabel 1850 4200 2    49   Input ~ 0
 adc0_cs
 NoConn ~ 1750 1300
 NoConn ~ 1750 1400
@@ -728,7 +728,6 @@ NoConn ~ 1850 3800
 NoConn ~ 1850 3900
 NoConn ~ 1850 4000
 NoConn ~ 1850 4100
-NoConn ~ 1850 4200
 NoConn ~ 1850 4300
 NoConn ~ 1850 4500
 NoConn ~ 1850 4800
@@ -801,4 +800,5 @@ F 3 "" H 8300 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8300 2850 9050 2850
+NoConn ~ 1850 5000
 $EndSCHEMATC
