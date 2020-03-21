@@ -18,21 +18,18 @@ S 3550 1350 1200 650
 U 5E507A5C
 F0 "mtr0" 50
 F1 "motor_channel.sch" 50
-F2 "ch1_cntl" I L 3550 1500 50 
-F3 "ch2_cntl" I R 4750 1500 50 
-F4 "i_mtr" I L 3550 1900 50 
-F5 "out1" I L 3550 1750 50 
-F6 "out2" I R 4750 1750 50 
-F7 "pwm" I R 4750 1900 50 
+F2 "i_mtr" I L 3550 1900 50 
+F3 "out1" I L 3550 1750 50 
+F4 "out2" I R 4750 1750 50 
+F5 "pwm1" I R 4750 1900 50 
+F6 "pwm2" I R 4750 1500 50 
 $EndSheet
 Text Label 3550 1750 2    50   ~ 0
 mtr0_out1
 Text Label 4750 1750 0    50   ~ 0
 mtr0_out2
-Text GLabel 3550 1500 0    50   Input ~ 0
-mtr0_in1
 Text GLabel 4750 1500 2    50   Input ~ 0
-mtr0_in2
+mtr0_pwm2
 Text GLabel 3550 1900 0    50   Input ~ 0
 i_mtr0
 Text Label 9525 1625 2    50   ~ 0
@@ -90,21 +87,18 @@ S 3550 2250 1200 650
 U 5E6EF1BC
 F0 "mtr1" 50
 F1 "motor_channel.sch" 50
-F2 "ch1_cntl" I L 3550 2400 50 
-F3 "ch2_cntl" I R 4750 2400 50 
-F4 "i_mtr" I L 3550 2800 50 
-F5 "out1" I L 3550 2650 50 
-F6 "out2" I R 4750 2650 50 
-F7 "pwm" I R 4750 2800 50 
+F2 "pwm2" I R 4750 2400 50 
+F3 "i_mtr" I L 3550 2800 50 
+F4 "out1" I L 3550 2650 50 
+F5 "out2" I R 4750 2650 50 
+F6 "pwm1" I R 4750 2800 50 
 $EndSheet
 Text Label 3550 2650 2    50   ~ 0
 mtr1_out1
 Text Label 4750 2650 0    50   ~ 0
 mtr1_out2
-Text GLabel 3550 2400 0    50   Input ~ 0
-mtr1_in1
 Text GLabel 4750 2400 2    50   Input ~ 0
-mtr1_in2
+mtr1_pwm2
 Text GLabel 3550 2800 0    50   Input ~ 0
 i_mtr1
 Text Label 9525 1825 2    50   ~ 0
@@ -146,7 +140,7 @@ enc1_a
 Text Label 6275 2150 2    50   ~ 0
 enc1_b
 Text GLabel 4750 1900 2    50   Input ~ 0
-mtr0_pwm
+mtr0_pwm1
 Text GLabel 4750 2800 2    50   Input ~ 0
 mtr1_pwm
 Text Label 8975 2025 0    50   ~ 0

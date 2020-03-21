@@ -78,10 +78,10 @@ Text GLabel 1750 2300 2    50   Input ~ 0
 en_vlv0
 Text GLabel 1750 2400 2    50   Input ~ 0
 en_vlv1
-Text GLabel 4300 1750 2    50   Input ~ 0
-mtr0_in1
-Text GLabel 4300 1850 2    50   Input ~ 0
-mtr0_in2
+Text GLabel 1750 1500 2    50   Input ~ 0
+mtr0_pwm1
+Text GLabel 1750 1600 2    50   Input ~ 0
+mtr0_pwm2
 Text Notes 5250 5000 0    123  ~ 25
 Programming Header\n
 $Comp
@@ -648,25 +648,21 @@ F 3 "" H 8900 5550 50  0001 C CNN
 	1    8900 5550
 	1    0    0    -1  
 $EndComp
-Text GLabel 4200 3850 2    50   Input ~ 0
-mtr1_in1
-Text GLabel 4200 3950 2    50   Input ~ 0
-mtr1_in2
-Text GLabel 4300 1950 2    50   Input ~ 0
-enc0_a
-Text GLabel 4300 2050 2    50   Input ~ 0
-enc0_b
-Text GLabel 4200 4050 2    50   Input ~ 0
-enc1_a
-Text GLabel 4200 4150 2    50   Input ~ 0
-enc1_b
 Text GLabel 1850 4400 2    50   Input ~ 0
-mtr1_pwm
-Text GLabel 6300 2300 2    50   Input ~ 0
-mtr0_pwm
+mtr1_pwm1
+Text GLabel 1850 4500 2    50   Input ~ 0
+mtr1_pwm2
+Text GLabel 1750 2800 2    50   Input ~ 0
+enc0_a
+Text GLabel 4300 2250 2    50   Input ~ 0
+enc0_b
 Text GLabel 1850 4600 2    50   Input ~ 0
-led0
+enc1_a
 Text GLabel 1850 4700 2    50   Input ~ 0
+enc1_b
+Text GLabel 1850 3800 2    50   Input ~ 0
+led0
+Text GLabel 1850 3900 2    50   Input ~ 0
 led1
 Text GLabel 1450 6200 2    50   Input ~ 0
 SPI1_SCK
@@ -715,21 +711,12 @@ Text GLabel 4300 1650 2    50   Input ~ 0
 SW0
 Text GLabel 1850 4200 2    49   Input ~ 0
 adc0_cs
-NoConn ~ 1750 1300
 NoConn ~ 1750 1400
-NoConn ~ 1750 1500
-NoConn ~ 1750 1600
 NoConn ~ 1750 1700
 NoConn ~ 1750 2100
 NoConn ~ 1750 2200
 NoConn ~ 1750 2500
-NoConn ~ 1750 2800
-NoConn ~ 1850 3800
-NoConn ~ 1850 3900
-NoConn ~ 1850 4000
-NoConn ~ 1850 4100
 NoConn ~ 1850 4300
-NoConn ~ 1850 4500
 NoConn ~ 1850 4800
 NoConn ~ 1850 4900
 NoConn ~ 1850 5100
@@ -739,7 +726,6 @@ NoConn ~ 4300 1350
 NoConn ~ 4300 1450
 NoConn ~ 4300 1550
 NoConn ~ 4300 2150
-NoConn ~ 4300 2250
 NoConn ~ 4300 2350
 NoConn ~ 4300 2450
 NoConn ~ 4300 2550
@@ -755,14 +741,11 @@ NoConn ~ 4200 4650
 NoConn ~ 4200 4550
 NoConn ~ 4200 4450
 NoConn ~ 4200 4350
-NoConn ~ 4200 4250
-NoConn ~ 4200 3750
 NoConn ~ 6300 1400
 NoConn ~ 6300 1500
 NoConn ~ 6300 1600
 NoConn ~ 6300 1700
 NoConn ~ 6300 1800
-NoConn ~ 6300 1900
 NoConn ~ 6300 2000
 NoConn ~ 6300 2100
 NoConn ~ 6300 2200
