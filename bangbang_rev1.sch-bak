@@ -32,12 +32,6 @@ F0 "ADC" 50
 F1 "ADC.sch" 50
 $EndSheet
 $Sheet
-S 3350 2700 1500 1000
-U 5E49EA18
-F0 "Motors" 50
-F1 "Motors.sch" 50
-$EndSheet
-$Sheet
 S 1350 1200 1500 1000
 U 5E49E7E9
 F0 "Power" 50
@@ -48,5 +42,11 @@ S 3350 1200 1500 1000
 U 5E49E833
 F0 "Valves" 50
 F1 "Valves.sch" 50
+$EndSheet
+$Sheet
+S 3350 2700 1500 1000
+U 5E49EA18
+F0 "Motors" 50
+F1 "Motors.sch" 50
 $EndSheet
 $EndSCHEMATC
