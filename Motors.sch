@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 12
+Sheet 10 14
 Title ""
 Date ""
 Rev ""
@@ -329,4 +329,34 @@ F 3 "~" H 6425 2150 50  0001 C CNN
 	1    6425 2150
 	0    1    1    0   
 $EndComp
+$Sheet
+S 3500 4475 1400 875 
+U 5E9A6A99
+F0 "mtr3" 50
+F1 "bldc_motor_channel.sch" 50
+F2 "pwm_en1" I L 3500 4575 50 
+F3 "pwm_en2" I L 3500 4700 50 
+F4 "pwm_en3" I L 3500 4825 50 
+F5 "logic_in1" I L 3500 5000 50 
+F6 "logic_in2" I L 3500 5125 50 
+F7 "logic_in3" I L 3500 5250 50 
+F8 "mtr_out1" I R 4900 4625 50 
+F9 "mtr_out2" I R 4900 4900 50 
+F10 "mtr_out3" I R 4900 5175 50 
+$EndSheet
+$Sheet
+S 3500 3225 1400 875 
+U 5E9A6A8E
+F0 "mtr2" 50
+F1 "bldc_motor_channel.sch" 50
+F2 "pwm_en1" I L 3500 3325 50 
+F3 "pwm_en2" I L 3500 3450 50 
+F4 "pwm_en3" I L 3500 3575 50 
+F5 "logic_in1" I L 3500 3750 50 
+F6 "logic_in2" I L 3500 3875 50 
+F7 "logic_in3" I L 3500 4000 50 
+F8 "mtr_out1" I R 4900 3375 50 
+F9 "mtr_out2" I R 4900 3650 50 
+F10 "mtr_out3" I R 4900 3925 50 
+$EndSheet
 $EndSCHEMATC
